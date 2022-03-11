@@ -1,0 +1,442 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 p ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+}
+/*-------------------------------------------------------------------------- header ----------------------------------------------------------------------------------------------------*/
+.header{
+    background-color: #F6F6F9;
+    margin-bottom: 22px;
+}
+.header .header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.header .header-top .header-left{
+    display: flex;
+    align-items: center;
+}
+.header .header-top .header-logo{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-right: 20px;
+}
+.header .header-top .header-left .currency{
+    display: flex;
+    align-items: center;
+}
+
+.header .header-top .header-left .currency p{
+    align-items: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #515151;
+    margin-right: 20px;
+    
+}
+.header .header-top .header-left .currency p b{ 
+    color: #285193;
+    
+    
+} 
+.header .header-top .header-right .telegram-logo{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px;
+}
+.header .header-top .header-right .telegram-logo img{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+.header-mid{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    margin-bottom: 18px;
+    justify-content: center;
+}
+.header-mid .nav-links{
+    display: block;
+    padding: 22px 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+
+}
+.header .header-bottom{
+    display:  flex;
+    padding-bottom: 23px;
+    justify-content: center;
+}
+/*------------------------------------------------------------------------------------- main-------------------------------------------------------------------------------------------- */
+
+main .covid-info{
+    background: #F6F6F9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 30px 35px;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    
+}
+main .covid-info .info-item{
+    display: flex;
+}
+main .covid-info .info-item.border{
+    border-right: 2px solid #F4CCD1;
+    padding-right: 42px;
+}
+main .covid-info .info-item .item-left{
+    margin-right: 25px;
+}
+/*--------------------------------------------------------------------------------------wrapper------------------------------------------------------------------------------------------ */
+main .picture-news-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .picture-news-wrapper .picture-news-item{
+    display: block;
+    width: 386px;
+    margin-bottom: 18px;
+    
+}
+main .picture-news-wrapper .picture-news-item img{
+    display: block;
+    width: 386px;
+    height: 190px;
+    margin-bottom: 11px;
+}
+main .picture-news-wrapper .picture-news-item .item-title{
+    margin-bottom: 11px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+main .picture-news-wrapper .picture-news-item .item-date{
+    margin-bottom: 11px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+}
+/*----------------------------------------------------------------------------------------- notification-block ----------------------------------------------------------------------------*/
+.notification-block{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(239, 186, 84, 0.18);
+    border-radius: 5px;
+    padding: 25px 20px 25px 34px;
+    height: 91px;
+    align-items: center;
+    margin-bottom: 40px;
+    }
+.notification-block .block-left{
+    display: flex;
+    align-items: center;
+}
+.notification-block .block-right{
+    display: flex;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 15px 8px;
+}
+.notification-block .block-left .bell-img{
+    margin-right: 17px;
+    align-items: center;
+}
+
+/*-------------------------------------------------------------------------- main-news-block ----------------------------------------------------------------------------------------------*/
+.main-news-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.main-news-block .main-news-left{
+    width: 68%;
+    margin-right: 31px;
+}
+.main-news-block .main-news-left .last-news-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+.main-news-block .main-news-left .last-news-item{
+    display: flex;
+}
+.main-news-block .main-news-left .last-news-item .item-img{
+    margin-right: 19px;
+    margin-bottom: 18px;
+    
+}
+.main-news-block .main-news-left .last-news-item .item-img img{
+    width: 252px;
+    height: 143px;
+    object-fit: cover;
+    background: url(image.png);
+    border-radius: 5px;
+
+}
+.main-news-block .main-news-left .last-news-item .item-info .info-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline;
+}
+.main-news-block .main-news-left .last-news-item .item-info .info-desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.main-news-block .main-news-left .last-news-item .item-info .info-date{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+.main-news-block .main-news-right{
+    width: 30%;
+}
+.main-news-block .main-news-right .text-news-block{
+    background: #F6F6F9;
+    border-radius: 5px; 
+    padding: 18px 20px;
+}
+.main-news-block .main-news-right .text-news-block .text-news-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    margin-bottom: 6px;
+}
+.main-news-block .main-news-right .text-news-block .text-news-item{
+    border-bottom: 4px solid #e4e4e4;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+}
+.main-news-block .main-news-right .text-news-block .text-news-item .item-desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin-bottom: 11px;
+}
+.main-news-block .main-news-right .text-news-block .text-news-item .item-date{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+    margin-bottom: 14px;
+    display: block;
+}
+.main-news-block .main-news-right .main-news-ad img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.more-news-button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 32px;
+    background: #295093;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/*------------------------------------------------------------------------------------- mobile=store-block --------------------------------------------------------------------------------*/
+.mobile-store-block{
+    background: #F6F6F9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0px 19px;
+    margin-bottom: 40px;
+}
+.mobile-store-block .mobile-left{
+    padding-top: 37px;
+}
+.mobile-store-block .mobile-right{
+    display: flex;
+    margin-right: 20px;
+}
+.mobile-store-block .mobile-middle{
+
+}
+.mobile-store-block .mobile-middle .mobile-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #295093;
+}
+.mobile-store-block .mobile-middle .mobile-subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+.mobile-store-block .mobile-right .store-link:first-child{
+    margin-right: 20px;
+    display: block;
+}
+/*------------------------------------------------------------------------------------------------ footer ----------------------------------------------------------------------------------*/
+footer{
+    background: #295093;
+}
+footer .footer-inner .footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 4px solid #295093;;
+    align-items: center;
+}
+footer .footer-inner .footer-top .footer-top-logo{
+    background: #133C82;
+    border-radius: 5px;
+    padding: 10px;
+}
+footer .footer-inner .footer-top .footer-top-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 17px;
+}
+.footer-top-right{
+    display: flex;
+    align-items: center;
+}
+footer .footer-inner .footer-top .footer-top-telegram{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+
+}
+footer .footer-inner .footer-top .footer-top-telegram img{
+   margin-right: 7px;
+   text-decoration: none;
+}
+footer .footer-inner .footer-bottom{
+    display: flex;
+    padding: 12px 0;
+}
+footer .footer-inner .footer-bottom .footer-about{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 100px;
+}
+footer .footer-inner .footer-bottom .footer-list-item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 100px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+}
+footer .footer-inner .footer-bottom .footer-list-item .footer-link-item {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .footer-inner .footer-bottom .footer-list-item .footer-link-item a{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .footer-inner .footer-bottom .footer-list-item:first-child{
+   margin-right: 100px;
+}
